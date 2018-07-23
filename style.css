@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#xxx {
+    background: green;
+}
+
+.actions {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.actions > #brush {
+    display: none;
+}
+
+.actions.x > #brush { /*注意 .actions x 和 .actions.x 的区别*/
+    display: inline-block;
+}
+
+.actions.x > #eraser {
+    display: none;
+}
+
