@@ -1,10 +1,11 @@
-* {
+body {
     margin: 0;
     padding: 0;
 }
 
 #xxx {
     background: green;
+    display: block; /*为什么要添加这句*/
 }
 
 .actions {
