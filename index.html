@@ -7,11 +7,35 @@
 </head>
 <body>
     <canvas id="xxx" width="300" height="300"></canvas>
-    <div id="actions" class="actions">
+    <!--<div id="actions" class="actions">
         <button id="eraser">橡皮擦</button>
         <button id="brush">画笔</button>
+    </div>-->
+    <div id="actions" class="actions">
+        <svg id="pen" class="icon active">
+            <use xlink:href="#icon-pen"></use>
+        </svg>
+        <svg id="eraser" class="icon">
+            <use xlink:href="#icon-eraser"></use>
+        </svg>
+        <svg id="clear" class="icon">
+            <use xlink:href="#icon-clear"></use>
+        </svg>
+        <svg id="download" class="icon">
+            <use xlink:href="#icon-download"></use>
+        </svg>
     </div>
+    <ul class="colors">
+        <li id="red" class="red"></li>
+        <li id="green" class="green"></li>
+        <li id="blue" class="blue"></li>
+    </ul>
+    <ul class="sizes">
+        <li id="thin" class="thin"></li>
+        <li id="thick" class="thick"></li>
+    </ul>
 
     <script src="./main.js"></script>
+    <script src="//at.alicdn.com/t/font_762867_bitkjeos44l.js"></script>
 </body>
 </html>
